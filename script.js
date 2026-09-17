@@ -14,11 +14,6 @@ incBtn.addEventListener("click", () => {
   render();
 });
 
-decBtn.addEventListener("click", () => {
-  count--;
-  render();
-});
-
 resetBtn.addEventListener("click", () => {
   count = 0;
   render();
